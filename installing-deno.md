@@ -7,7 +7,7 @@ Deno is still at very early development stage. The current releases are 0.2.x, w
 To install Deno release binary, run the following commands on \*nix
 
 ```bash
-curl -L https://deno.land/x/install/install.py | python
+curl -fsSL https://deno.land/x/install/install.sh | sh
 export PATH=$HOME/.deno/bin:$PATH
 ```
 
